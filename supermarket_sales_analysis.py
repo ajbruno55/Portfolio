@@ -4,7 +4,7 @@ import csv
 import plotly.express as px
 
 # Reading in data sourced from Kaggle.com (free open source data site)
-path = Path('csv_files/supermarket_sales.csv')
+path = Path('supermarket_sales.csv')
 contents = path.read_text(encoding='utf-8').splitlines()
 
 reader = csv.reader(contents)
